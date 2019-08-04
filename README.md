@@ -8,7 +8,9 @@ A sample AWS Lambda Deployment package (for Python 3.7) to get started with Web 
 3. chromedriver v2.43 (https://chromedriver.storage.googleapis.com/index.html?path=2.43/)
 
 <b>--------------------</b><br>
-Upgrading any/all of the above libraries to a newer version may result in compatibility issues. As a result of this, you may possibly face the below errors (in case you don't see any errors and the Lambda function times out, try setting the Lambda Timeout config to at least a minute):
+If you decide to upgrade any/all of the above libraries to a newer version, please be advised that it may result in compatibility issues. 
+
+As a result of this, you may possibly face the below errors in the Lambda function (in case you don't see any errors and the Lambda function times out, try setting the Lambda Timeout config to at least a minute):
 
 <i>[ERROR] WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally</i>
 
